@@ -1,0 +1,46 @@
+.container {
+  margin: 12rem;
+  width: 20rem;
+  height: 20rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.search-bar {
+}
+
+body {
+  background-color: #1899D6;
+}
+
+.fa fa-search {
+  width: 2rem;
+  height: 2rem;
+}
+
+button {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  left: 24rem;
+}
+
+input {
+  width: 0;
+  height: 2rem;
+  outline: none;
+  padding: 0.25rem;
+  border: 0;
+  transition: width 0.3s ease ;
+  visibility: hidden;
+  position: relative;
+  left: 24rem;
+  font-size: 1.1rem;
+}
+
+.active {
+  visibility: visible;
+  width: 200px;
+  border: 1px solid #8ef6e4;
+}
